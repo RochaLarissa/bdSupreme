@@ -1,0 +1,124 @@
+
+<form name="firebase" method="POST">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>supreme</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+        <link rel="stylesheet" href="/bootstrap/css/supreme.css">
+
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=4"></script>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css'>
+		<script src="/bootstrap/js/app.js">	</script>
+		  
+	</head>
+	<body>
+		<div id="content-container" >
+			<div id="page_novo_cliente_ek1"  >
+				<div id="_bg__novo_cliente_ek2"  ></div>
+				<div id="rectangle_25_ek5"  ></div>
+				<div id="rectangle_35_ek5"  ></div>
+				<img src="/bootstrap/skins/mask_group_ek9.png" id="mask_group_ek9" />
+				
+				<!---	MENU QUE RETORNARÁ AS PÁGINAS		--->
+				<div id="novo_pedido_ek12" >
+					<a class="button" action="/novoPedido"> NOVO PEDIDO </a>
+				</div>
+				<div id="clientes_ek8" >
+					<a class="button" action="/clientes"> CLIENTES </a>
+				</div>
+				<div id="pedidos_ek8" >
+					<a class="button" action="/pedidos"> PEDIDOS </a>
+				</div>
+				<div id="entregas_ek13" >
+					<a class="button" href="./entregas.html"> ENTREGAS </a>
+				</div>
+				<div id="estoques_ek12" >
+					<a class="button" href="./estoques.html"> ESTOQUES </a>
+				</div>
+				<div id="relat_rios_ek10" >
+					<a class="button" href="./entrega.html">RELATÓRIOS </a>
+				</div>
+				<div id="sair_ek8" >
+					<a class="button" href="javascript:if(confirm('Deseja mesmo sair?'))window.close()"> SAIR </a>
+				</div>
+
+				<!---		Menu "Novo Cliente"	--->
+				<div id="rectangle_17_ek11"  ></div>
+				<div id="novo_cliente_ek3" >
+					Novo Cliente
+				</div>
+				<!---		Receber dados dos Clientes no Menu "Novo Cliente", aqui o usuário irá digitar seus dados.	--->
+				<div id="rectangle_17_ek12"  ></div>
+				<div id="rectangle_28"  ></div>
+				<div id="nome_" >
+					<input type="text" placeholder="Nome do Cliente" name="nomeCliente"> </label>
+				</div>
+				<div id="rectangle_34"  ></div>
+				<div id="pessoa_f_sica" >
+					<input type="text" name="pf" placeholder="Pessoa Física?">
+				</div>
+				<div id="pessoa_jur_dica" >
+					<input type="text" name="pj" placeholder="Pessoa Jurídica?">
+				</div>
+				<div id="rectangle_33_ek1"  ></div>
+				<div id="cpf_cnpj__ek2" >
+					<input type="text" placeholder="CPF/CNPJ" name="cpfCnpj"> </label>
+				</div>
+				<div id="rectangle_25_ek6"  ></div>
+				<div id="rua_" >
+					<input type="text" placeholder="Rua / Endereço" name="enderecoCliente"> </label>
+				</div>
+				<div id="rectangle_25_ek9"  ></div>
+				<div id="n__" >
+					<input type="number" placeholder="Nº">
+				</div>
+				<div id="rectangle_25_ek8"  ></div>
+				<div id="bairro_" >
+					<input type="text" placeholder="Bairro"> </label>
+				</div>
+				<div id="rectangle_25_ek11"  ></div>
+				<div id="complemento_" >
+					<input type="text" placeholder="Complemento"> </label>
+				</div>
+				<div id="rectangle_25_ek14"  ></div>
+				<div id="cep_" >
+					<input type="text" placeholder="CEP"> </label>
+				</div>
+				<div id="rectangle_25_ek15"  ></div>
+				<div id="cidade" >
+					<select>
+						<option> Cidade</option>
+						<option> Fortaleza</option>
+						<option> Tocantins</option>
+						<option> São Paulo</option>
+						<option> Rio de Janeiro</option>
+				</div>
+				<div id="uf_" >
+					<input type="text" placeholder="UF"> </label>
+				</div>
+				<a href=""> <img src="/bootstrap/skins/restart.png" id="undo_ek3" /> </a>
+				<div id="rectangle_25_ek12"  ></div>
+				<div id="telefone_" >
+					<input type="number" placeholder="Telefone" name="telefoneCliente">
+				</div>
+				<div id="rectangle_25_ek13"  ></div>
+				<div id="celular_" >
+					<input type="number" placeholder="Celular">
+				</div>
+				<div id="rectangle_25_ek7"  ></div>
+				<div id="email_" >
+					<input type="email" placeholder="E-mail" name="emailCliente">
+				</div>
+				<div id="cadastrar" >
+					    <input type="submit" class="button-primary" formaction="/cadastrarCliente" value="cadastrar" name="btCadastrar"> Cadastrar Cliente
+				</div>
+			</div>
+		</div>	
+		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+	</body>
+</html>
+</form>
+

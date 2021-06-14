@@ -1,0 +1,211 @@
+<form name="firebase" method="POST">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>supreme</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="./css'novo_pedido'.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=4"></script>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css'>
+		<script src="/bootstrap/js/novo_pedido.js"> </script>
+		<!-- Add your custom HEAD content here -->
+
+	</head>
+	<body>
+		<div id="content-container" >
+
+			<div id="_bg__novo_pedido"  ></div>
+			<div id="rectangle_17"  ></div>
+			<div id="rectangle_17_ek1"  ></div>
+			<img src="skins/mask_group.png" id="mask_group" />
+
+			<!---	MENU QUE RETORNARÁ AS PÁGINAS		--->
+			<div id="novo_pedido_ek12" >
+				<a class="button" href="./novo_cliente.html"> NOVO CLIENTE</a>
+			</div>
+			<div id="clientes_ek8" >
+				<a class="button" href="./clientes.html"> CLIENTES </a>
+			</div>
+			<div id="pedidos_ek8" >
+				<a class="button" href="./pedidos.html"> PEDIDOS </a>
+			</div>
+			<div id="entregas_ek13" >
+				<a class="button" href="./entregas.html"> ENTREGAS </a>
+			</div>
+			<div id="estoques_ek12" >
+				<a class="button" href="./estoques.html"> ESTOQUES </a>
+			</div>
+			<div id="relat_rios_ek10" >
+				<a class="button" href="./entrega.html">RELATÓRIOS </a>
+			</div>
+			<div id="sair_ek8" >
+				<a class="button" href="javascript:if(confirm('Deseja mesmo sair?'))window.close()"> SAIR </a>
+			</div>
+		
+			<div id="rectangle_17_ek2"  ></div>	
+			<div id="novo_pedido_ek1" >
+				Novo Pedido
+			</div>
+		
+			<div id="rectangle_25"  ></div>
+			<div id="endere_o_de_entrega_" >
+				<input type="text" placeholder="Endereço de Entrega" name="enderecoCliente">
+			</div>
+			<div id="rectangle_255"  ></div>
+			<div id="data_de_entrega1"> 
+				<input type="text" placeholder="Data de entrega" name="dtEntrega">
+			</div>
+			<div id="group_42"  >
+			<div id="data_de_entrega_" >
+			</div>
+			<div id="group_12"  >
+			</div>
+			</div>
+			<div id="rectangle_24"  ></div>
+			<div id="cliente_" >
+				<input type="text" placeholder="Nome do Cliente" name="nomeCliente">
+			</div>
+			
+			<div id="group_43"  >
+				<div id="rectangle_24_ek1"  ></div>
+				<div id="finalizar_pedido" >
+					<input type="submit" formaction="/cadastrarPedido" value="Enviar pedido">
+				</div>
+				
+			</div>
+						<div id="rectangle_27"  ></div>
+						<div id="forma_de_pagamento" >
+							<select name="formaPgt">
+								<option>
+									Forma de Pagamento
+								</option>
+								<option>
+									Cartão de Crédito
+								</option>
+								<option>
+									Cartão de Débito
+								</option>
+								<option>
+									Dinheiro
+								</option>
+								
+							</select>
+						</div>
+						
+						<div id="rectangle_19"  ></div>
+						<!-- PRODUTO CANUDINHO	-->
+						<div id="canudinho" name="canudinho">
+							CANUDINHO
+						</div>
+						<!-- PRODUTO PASTELZINHO	-->
+						<div id="pastelzinho" name="pastelzinho">
+							PASTELZINHO
+						</div>
+						<!-- PRODUTO MASSA DE LASANHA	-->
+						<div id="massa_de_lasanha" name="massaLasanha">
+							MASSA DE LASANHA
+						</div>
+						<!-- PRODUTO MASSA DE PASTEL	-->
+						<div id="massa_de_pastel" name="massaPastel">
+							MASSA DE PASTEL
+						</div>
+						<!-- PRODUTO BOLINHA DE QUEIJO GOURMET	-->
+						<div id="bolinha_de_queijo" name="bolinhaQueijo">
+							BOLINHA DE QUEIJO GOURMET
+						</div>
+					
+						<!-- PREÇO PRODUTO CANUDINHO -->
+						<div id="_2_50" name="precoCanudinho">
+							1,50
+						</div>
+						<!-- PREÇO PRODUTO PASTELZINHO -->
+						<div id="_2_00" name="precoPastelzinho">
+							2,00
+						</div>
+						<!-- PREÇO PRODUTO MASSA DE LASANHA -->
+						<div id="_5_00" name="precoLasanha">
+							3,00
+						</div>
+						<!-- PREÇO PRODUTO MASSA DE PASTEL -->
+						<div id="_4_00" name="precoMassaPastel">
+							4,00
+						</div>
+						<!-- PREÇO PRODUTO BOLINHA DE QUEIJO GOURMET -->
+						<div id="_1_00" name="precoBolinhaQueijo">
+							5,00
+						</div>
+						
+						<!--	PREÇO TOTAL UNIDADES	(MÚLTIPLICA QTD * PREÇO UND)     
+								PREÇO TOTAL CANUDINHO	-->
+						<div id="_0_ek10" >
+							<input type="text" id="totalCanudinho" name="totalCanudinho"> 
+						</div>
+						<!--	PREÇO TOTAL PASTELZINHO	-->
+						<div id="_0_ek5" >
+							<input type="text" id="totalPastelzinho" name="totalPastelzinho"> 
+						</div>
+						<!--	PREÇO TOTAL MASSA DE LASANHA	-->
+						<div id="_0_ek9" >
+							<input type="text" id="totalMassaDeLasanha" name="totalMassaDeLasanha"> 
+						</div>
+						<!--	PREÇO TOTAL MASSA DE PASTEL	-->
+						<div id="_0_ek1" >
+							<input type="text" id="totalMassaDePastel" name="totalMassaDePastel"> 
+						</div>
+						<!--	PREÇO TOTAL BOLINHA DE QUEIJO	-->
+						<div id="_0_ek2" >
+							<input type="text" id="totalBolinhaDeQueijo" name="totalBolinhaDeQueijo">
+						</div>
+					
+						<!-- QTD CANUDINHO -->
+						<div id="_0_ek3" >
+							<input type="text" id="qtdCanudinho" oninput="multiplicador1();somaTotal()" name="qtdCanudinho">
+						</div>
+						<!-- QTD PASTELZINHO -->
+						<div id="_0_ek4" >
+							<input type="number" id="qtdPastelzinho" oninput="multiplicador2();somaTotal()" name="qtdPastelzinho">
+						</div>
+						<!-- QTD MASSA DE LASANHA -->
+						<div id="_0_ek6" >
+							<input type="number" id="qtdMassaDeLasanha" oninput="multiplicador3();somaTotal()" name="qtdMassaDeLasanha"> 
+						</div>
+						<!-- QTD MASSA DE PASTELZINHO -->
+						<div id="_0_ek8" >
+							<input type="number" id="qtdMassaDePastelzinho" oninput="multiplicador4();somaTotal()" name="qtdMassaDePastelzinho">
+						</div>
+						<!-- QTD BOLINHA DE QUEIJO	 -->
+						<div id="_0_ek7" >
+							<input type="number" id="qtdBolinhaDeQueijo" oninput="multiplicador5();somaTotal()" name="qtdBolinhaDeQueijo">
+						</div>
+
+						<!--	nao mecher 		-->
+						<div id="rectangle_20"  ></div>
+						<div id="qtd_ek1" >
+							QTD
+						</div>
+						<div id="produto" >
+							PRODUTO
+						</div>
+						
+						<div id="group_32"  >
+							<div id="valor_a_pagar_" >
+								VALOR A PAGAR:
+							</div>
+							<!--	VALOR A PAGAR TOTAL SOMA DE TUDO (TOTAL CANUDINHO + TOTAL PASTELZINHO + TOTAL MASSA DE LASANHA + 																	TOTAL MASSA DE PASTEL TOTAL BOLINHA DE QUEIJO GOURMET)		-->
+							<div id="_0_00" >
+								<input type="number" id="somaTotal" name="total"> 
+							</div>
+						</div>
+						<div id="pre_o_und" >
+							PREÇO UND 
+						</div>
+						<div id="total" >
+							TOTAL
+						</div>
+					</div>
+					<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+				</body>
+				</html>
+                </form>
